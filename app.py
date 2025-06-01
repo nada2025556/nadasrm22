@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="Filtrage et Visualisation", layout="wide")
-st.title("📊 Filtrage de Données avec Visualisation Interactive")
+st.title("📊 Filtrage de Données ")
 
 @st.cache_data
 def load_file(uploaded_file):
